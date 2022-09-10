@@ -1,0 +1,38 @@
+.header {
+  position: relative;
+}
+
+.header > h2 {
+  float: left;
+  width: 100%;
+}
+
+.header > nav {
+  float: left;
+  width: fit-content;
+  margin-left: 15%;
+}
+
+.header .app-nav-list > li{
+  float: left;
+  top: 12px;
+  position: relative;
+}
+
+.header > .button {
+  position: absolute;
+  float: right;
+  top: 23px;
+  right: 16px;
+}
+
+/* main*/
+.app-main{
+  height: 100%;
+}
+
+.app-main .content,
+.app-main .app-sidebar {
+  margin: 0 auto;
+}
+
